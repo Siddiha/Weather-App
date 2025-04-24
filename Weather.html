@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App </title>
-    <link rel="stylesheet" href="Weather.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap"
         rel="stylesheet">
-            <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <div class="container">
         <div class="search-box">
@@ -18,11 +20,11 @@
             <button class="fa-solid fa-magnifying-glass"></button>
         </div>
         <div class="not-found">
-            <img src="404.png" alt="">
-            <p>oops invalid location:</p>
+            <img src="images/404.png" alt="Not found">
+            <p>Oops! Invalid location</p>
         </div>
         <div class="weather-box">
-            <img src="">
+            <img src="" alt="Weather icon">
             <p class="temperature"></p>
             <p class="description"></p>
         </div>
@@ -31,34 +33,19 @@
                 <i class="fa-solid fa-water"></i>
                 <div class="text">
                     <span></span>
-                    <p>humidity</p>
+                    <p>Humidity</p>
                 </div>
-
             </div>
-
-            <div class="weather-details">
-                <div class="humidity">
-                    <i class="fa-solid fa-water"></i>
-                    <div class="text">
-                        <span></span>
-                        <p>humidity</p>
-                    </div>
-            
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <span></span>
+                    <p>Wind Speed</p>
                 </div>
-
-                    <div class="wind">
-                        <i class="fa-solid fa-wind"></i>
-                        <div class="text">
-                            <span></span>
-                            <p>Wind Speed</p>
-                        </div>
-
-        </div>
+            </div>
         </div>
     </div>
-
-    <script src="Weather.js"></script>
-   
-    
+    <script src="weather.js"></script>
 </body>
+
 </html>
